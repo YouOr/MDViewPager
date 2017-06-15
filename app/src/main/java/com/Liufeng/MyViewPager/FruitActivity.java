@@ -28,7 +28,7 @@ public class FruitActivity extends AppCompatActivity {
         CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         ImageView fruit_image_view = (ImageView) findViewById(R.id.fruit_image_view);
         TextView fruit_content_text = (TextView) findViewById(R.id.fruit_content_text);
-        toolbar.setTitle("六一");
+        toolbar.setTitle("六一六一");
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
@@ -41,7 +41,7 @@ public class FruitActivity extends AppCompatActivity {
     private String getFruitInfo(){
         StringBuilder fruitContent=new StringBuilder();
         for (int i=0;i<=500;i++){
-            fruitContent.append("水果");
+            fruitContent.append("节日-");
         }
         return fruitContent.toString();
     }
