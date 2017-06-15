@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="?attr/colorPrimary">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon_header"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/people"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LiuFeng"
+        android:textSize="30dp"
+        android:textColor="@color/colorControlnormal"
+        android:layout_toRightOf="@+id/icon_header"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="邮箱"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorControlnormal"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_email"
+        android:text="地址"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorControlnormal"
+        android:layout_marginBottom="10dp"
+        android:textSize="14sp"
+        />
+</RelativeLayout>

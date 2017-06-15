@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_ToolBar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tab_height"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/layout_chat"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_tab_chat_selector"
+            android:duplicateParentState="true"/>
+
+        <TextView
+            android:id="@+id/tv_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/tab_bottom_textView_padding"
+            android:text="@string/tab_chat"
+            android:textSize="@dimen/tab_bottom_testSize"
+            android:textColor="@drawable/tv_tab_selector"
+            android:duplicateParentState="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_contacts"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_tab_contacts_selector"
+            android:duplicateParentState="true"/>
+
+        <TextView
+            android:id="@+id/tv_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/tab_bottom_textView_padding"
+            android:text="@string/tab_contacts"
+            android:textSize="@dimen/tab_bottom_testSize"
+            android:textColor="@drawable/tv_tab_selector"
+            android:duplicateParentState="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_find"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_tab_find_selector"
+            android:duplicateParentState="true"/>
+
+        <TextView
+            android:id="@+id/tv_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/tab_bottom_textView_padding"
+            android:text="@string/tab_find"
+            android:textSize="@dimen/tab_bottom_testSize"
+            android:textColor="@drawable/tv_tab_selector"
+            android:duplicateParentState="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_set"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_tab_set_selector"
+            android:duplicateParentState="true"/>
+
+        <TextView
+            android:id="@+id/tv_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/tab_bottom_textView_padding"
+            android:text="@string/tab_set"
+            android:textSize="@dimen/tab_bottom_testSize"
+            android:textColor="@drawable/tv_tab_selector"
+            android:duplicateParentState="true"/>
+    </LinearLayout>
+</LinearLayout>

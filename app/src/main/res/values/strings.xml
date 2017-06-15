@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">MyViewPager</string>
+    <string name="action_search">搜索</string>
+    <string name="action_newchat">发起群聊</string>
+    <string name="action_addfriend">添加好友</string>
+
+    <string name="tab_chat">My项目</string>
+    <string name="tab_contacts">联系人</string>
+    <string name="tab_find">发现</string>
+    <string name="tab_set">设置</string>
+
+    <array name="array_contactNickName">
+        <item>东门</item>
+        <item>杜宏建</item>
+        <item>古金</item>
+        <item>洪正方</item>
+        <item>黄贝芳</item>
+        <item>刘阿姨</item>
+        <item>刘毅超</item>
+        <item>卢帮辉</item>
+        <item>芮波</item>
+        <item>Run丶</item>
+        <item>沙枣花</item>
+        <item>小牛</item>
+        <item>袁晓庆</item>
+        <item>----</item>
+        <item>尼克</item>
+        <item>西门</item>
+        <item>徐峰</item>
+        <item>12w</item>
+        <item>轩辕</item>
+    </array>
+    <array name="SortABCF">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>G</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </array>
+</resources>

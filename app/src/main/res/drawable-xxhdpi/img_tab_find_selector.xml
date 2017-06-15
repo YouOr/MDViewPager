@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/three_2" android:state_selected="true"></item>//选中的时候填充的资源
+    <item android:drawable="@drawable/three_2" android:state_pressed="true"></item>//按下的时候候填充的资源
+    <item android:drawable="@drawable/three_2" android:state_focused="true"></item>//获取焦点的时候候填充的资源
+    <item android:drawable="@drawable/three_1"></item>
+</selector>

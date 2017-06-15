@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#45C01A</color>
+    <color name="windowbackgroud">#DCDCDC</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="colorControlnormal">#FFFFFF</color>
+    
+    <color name="main_tab_button_textColor_Default">#999999</color>
+    <color name="main_tab_button_textColor_Selected">#45C01A</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorGrey">#999999</color>
+</resources>
