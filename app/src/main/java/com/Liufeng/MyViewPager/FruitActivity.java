@@ -28,7 +28,7 @@ public class FruitActivity extends AppCompatActivity {
         CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         ImageView fruit_image_view = (ImageView) findViewById(R.id.fruit_image_view);
         TextView fruit_content_text = (TextView) findViewById(R.id.fruit_content_text);
-        toolbar.setTitle("六一一");
+        toolbar.setTitle("六一一1");
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
