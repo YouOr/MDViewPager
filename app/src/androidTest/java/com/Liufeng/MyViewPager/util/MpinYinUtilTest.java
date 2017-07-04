@@ -25,5 +25,6 @@ public class MpinYinUtilTest extends TestCase {
         Log.i(TAG, pinyin2);
         Log.i(TAG, pinyin3);
         Log.i(TAG, pinyin4);
+        Log.i(TAG, pinyin4);
     }
 }
